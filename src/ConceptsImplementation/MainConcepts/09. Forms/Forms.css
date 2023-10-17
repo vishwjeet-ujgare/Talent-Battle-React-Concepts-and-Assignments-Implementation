@@ -1,0 +1,26 @@
+.mainDiv {
+  display: flex;
+}
+
+.leftDiv,
+.rightDiv {
+  flex: 1;
+  width: 50%;
+  box-sizing: border-box;
+  /* Optional: Include padding and border in the element's total width and height */
+}
+
+.leftDiv {
+  background-color: #e0e0e0;
+  /* Optional: Add background color for styling */
+}
+
+.rightDiv {
+  background-color: #f0f0f0;
+  /* Optional: Add background color for styling */
+}
+
+.img {
+  max-width: 255px;
+   max-height: 255px;
+}
