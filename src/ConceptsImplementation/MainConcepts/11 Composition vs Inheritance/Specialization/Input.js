@@ -1,6 +1,4 @@
 import React from "react";
-import Dialog from "./Dialog";
-
 export default class Input extends React.Component {
   constructor(props) {
     super(props);

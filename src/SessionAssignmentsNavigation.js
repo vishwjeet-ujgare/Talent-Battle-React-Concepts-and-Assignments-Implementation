@@ -7,10 +7,14 @@ function SessionAssignmentsNavigation() {
       <nav>
       <ul>
         <h2>Session Assignment</h2>
+  
         <li>
-          <Link to="/changeText">ChangeText</Link>
+          <Link to="/changeText">01 ChangeText</Link>
         </li>
-        {/* Add more links for other assignments */}
+        <li>
+          <Link to="/MiniCalculator">02 Mini Calculotor</Link>
+        </li>
+       
       </ul>
     </nav>
     </div>

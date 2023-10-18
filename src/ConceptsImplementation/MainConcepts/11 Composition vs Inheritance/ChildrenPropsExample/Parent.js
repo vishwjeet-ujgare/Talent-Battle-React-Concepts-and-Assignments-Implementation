@@ -1,5 +1,4 @@
 import React from 'react'
-import Children from './Children'
 function Parent() {
   return (
     <div>
@@ -20,6 +19,14 @@ function Parent() {
       </Children>
     </div>
   )
+}
+
+function Children(props) {
+  return (
+    <div>
+     {props.children}
+    </div>
+  );
 }
 
 export default Parent
