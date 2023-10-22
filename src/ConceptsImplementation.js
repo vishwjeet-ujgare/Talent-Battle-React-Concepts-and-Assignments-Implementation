@@ -1,6 +1,6 @@
 import React from 'react'
 import { Route, Routes } from "react-router-dom";
-import Navigation from "./Navigation";
+
 import IntroductionToJsx from "./ConceptsImplementation/MainConcepts/02 Introduction to JSX/Index";
 
 import TickingClock from "./ConceptsImplementation/MainConcepts/03 Rendering Elements/TickingClock";
@@ -18,10 +18,10 @@ function ConceptsImplementation() {
   return (
     <div>
     <Routes>
-      <Route path="/" element={<Navigation />} />
+      
         <Route path="/introductionToJsx" element={<IntroductionToJsx />} />
-        <Route path="renderingElement" element={<TickingClock />} />
-        <Route path="ComponentsProps" element={<ComponentsProps />} />
+        <Route path="/renderingElement" element={<TickingClock />} />
+        <Route path="/ComponentsProps" element={<ComponentsProps />} />
         <Route path="/StateAndLifecycle" element={<StateAndLifecycle />} />
         <Route path="/HandlingEvents" element={<HandlingEvent />} />
         <Route

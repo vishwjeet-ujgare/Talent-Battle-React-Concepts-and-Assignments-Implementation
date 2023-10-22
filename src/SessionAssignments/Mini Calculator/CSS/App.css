@@ -1,0 +1,10 @@
+/* mini calculator root css */
+#calculator-app-root {
+    border: 5px solid red;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* Optional: Set a background color */
+}

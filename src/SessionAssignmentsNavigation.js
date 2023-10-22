@@ -9,10 +9,10 @@ function SessionAssignmentsNavigation() {
         <h2>Session Assignment</h2>
   
         <li>
-          <Link to="/changeText">01 ChangeText</Link>
+          <Link to="/SessionAssignments/changeText">01 ChangeText</Link>
         </li>
         <li>
-          <Link to="/MiniCalculator">02 Mini Calculotor</Link>
+          <Link to="/SessionAssignments/MiniCalculator">02 Mini Calculotor</Link>
         </li>
        
       </ul>

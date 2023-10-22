@@ -1,9 +1,10 @@
 import React from 'react'
 import MiniCalculator from './MiniCalculator'
+import "./CSS/App.css"
 
 function App() {
   return (
-    <div>
+    <div id="calculator-app-root">
       <MiniCalculator/>
     </div>
   )
